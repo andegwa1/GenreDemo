@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.al.genredemo.ambient.ambientFragments.AmbientFragment"
+    android:background="#f1f1f1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ambient_def"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Ambient"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/ambient_def_desc"
+            android:layout_below="@id/ambient_def"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ambient is a style that describes a large spectrum of music. Ambient music puts more emphasis on actual sound than musical structure, aimed at forming a particular atmosphere or mood with the help of conventional and unconventional instruments, sound clips, and sometimes vocal clips. Singing in ambient music can be done, although a good deal of ambient is instrumental.
+
+Ambient music is not limited to any particular mood or sound, but rather embraces the idea that any mood or atmosphere can be achieved through sound alone, rather than needing to rely on music composition or song structure. Ambient has been incorporated into a large amount of various already-existing musical genres, due to its extremely compatible usage and versatility."/>
+
+</RelativeLayout>
+
+</FrameLayout>

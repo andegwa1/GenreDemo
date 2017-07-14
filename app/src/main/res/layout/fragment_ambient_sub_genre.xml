@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.al.genredemo.ambient.ambientFragments.AmbientSubGenreFragment"
+    android:background="@android:color/darker_gray">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/activity_dub_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/genre_ambient_dub"
+                android:layout_width="185dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_orange_dark"
+                android:gravity="center"
+                android:text="Ambient Dub"
+                android:textSize="25sp" />
+            <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.05"-->
+            <!--android:background="@android:color/darker_gray"-->
+            <!--&gt;</View>-->
+
+            <TextView
+                android:id="@+id/genre_dark_ambient"
+                android:layout_width="190dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_red_dark"
+                android:gravity="center"
+                android:text="Dark Ambient"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_dung_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_dub_dark"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/genre_dungeon_synth"
+                android:layout_width="185dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_purple"
+                android:gravity="center"
+                android:text="Dungeon Synth"
+                android:textSize="25sp" />
+            <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.05"-->
+            <!--android:background="@android:color/darker_gray"-->
+            <!--&gt;</View>-->
+
+            <TextView
+                android:id="@+id/genre_space_ambient"
+                android:layout_width="190dp"
+                android:layout_height="150dp"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:text="Space Ambient"
+                android:textColor="@android:color/white"
+                android:textSize="23sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/activity_tribal_ambient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_dung_space"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/genre_tribal_ambient"
+                android:layout_width="185dp"
+                android:layout_height="150dp"
+                android:background="@android:color/holo_blue_bright"
+                android:gravity="center_vertical"
+                android:text="Tribal Ambient"
+                android:textSize="25sp" />
+            <!--<View-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.05"-->
+            <!--android:background="@android:color/darker_gray"-->
+            <!--&gt;</View>-->
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

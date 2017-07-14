@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.al.genredemo.ambient.ambientFragments.AmbientAlbumsFragment"
+    android:background="@android:color/darker_gray">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/frag_amb_release"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Top Releases"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/frag_amb_art1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/frag_amb_release"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <!--<View-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+            <!--&gt;</View>-->
+
+        <ImageView
+            android:id="@+id/ambient_akira"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/akira_sh2" />
+        <View
+        android:layout_width="10dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        ></View>
+
+        <ImageView
+            android:id="@+id/ambient_aphex"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/aphx_saw2" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <ImageView
+            android:id="@+id/ambient_sotl1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/sotl_tso" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/frag_amb_art2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/frag_amb_art1"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <!--<View-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@android:color/darker_gray"-->
+        <!--&gt;</View>-->
+
+        <ImageView
+            android:id="@+id/ambient_eno"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/eno_amb1" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <ImageView
+            android:id="@+id/ambient_hecker"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/timheck_uv" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <ImageView
+            android:id="@+id/ambient_sotl2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/sotl_refine" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/frag_amb_art3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/frag_amb_art2"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <!--<View-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@android:color/darker_gray"-->
+        <!--&gt;</View>-->
+
+        <ImageView
+            android:id="@+id/ambient_gas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/gas_pop" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <ImageView
+            android:id="@+id/roach"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/roach_struct" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <ImageView
+            android:id="@+id/bohren"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bohren_black" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/frag_amb_art4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/frag_amb_art3"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            ></View>
+
+        <ImageView
+            android:id="@+id/ambient_bios"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bios_sub" />
+        <!--<View-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+            <!--&gt;</View>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/roach"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:background="@drawable/roach_struct" />-->
+
+        <!--<View-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+            <!--&gt;</View>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/bohren"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:background="@drawable/bohren_black" />-->
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

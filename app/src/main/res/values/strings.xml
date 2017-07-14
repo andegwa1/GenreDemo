@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GenreDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="blues_def">The blues originated with African-American communities, primarily in the
+        Deep South of the United States, towards the end of the nineteenth century. It grew out of
+        Spirituals, Work Songs, shouts, chants and narrative ballads. It became associated with a
+        form of music using a 12 bar chord progression (although it was always much more varied than
+        just this form) and employing distinctive “blue notes”, slightly at odds with notation
+        Western Classical Music.
+        \n\nIn the first half of the 20th century there was cross-fertilization
+        with Jazz and Rhythm &amp; Blues. Blues music continued to develop into a number of
+        sub-genres, including Delta Blues, Piedmont, Jump-Blues and Chicago Blues. After World War II
+        many artists, particularly in Chicago, moved to amplified Electric Blues, which was a major
+        influence on Rock &amp; Roll and later Blues Rock musicians and through them on Hard Rock
+        and Heavy Metal music. Since then it has enjoyed a number of revivals, most recently in the
+        2000s, when it was picked up by bands of the Garage Rock Revival.
+    </string>
+
+</resources>
