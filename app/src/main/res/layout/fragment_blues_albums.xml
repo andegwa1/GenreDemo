@@ -4,7 +4,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
     android:background="#f1f1f1"
-    tools:context="com.example.al.genredemo.blues.bluesFragments.BluesAlbumsFragment">
+    tools:context="com.example.al.genredemo.genres.blues.bluesFragments.BluesAlbumsFragment">
 
     <RelativeLayout
         android:id="@+id/activity_blue_title"
@@ -17,6 +17,7 @@ android:layout_height="match_parent"
             android:id="@+id/activity_main_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
             android:gravity="center"
             android:text="Top Blues Albums"
             android:textColor="@android:color/white"

@@ -17,11 +17,75 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".ambient.ambientActivities.AmbientViewPagerActivity" />
+
+
+        <activity
+            android:name=".misc.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".genres.ambient.ambientActivities.AmbientViewPagerActivity" />
         <!-- <activity android:name=".blues.bluesAdapters.BluesViewPagerAdapter" /> -->
-        <activity android:name=".blues.bluesActivities.BluesViewPagerActivity" />
-        <activity android:name=".blues.bluesAdapters.CustomListAdapter"></activity>
+        <activity android:name=".genres.blues.bluesActivities.BluesViewPagerActivity" />
+        <activity android:name=".genres.blues.bluesAdapters.BluesListAdapter" />
+        <activity android:name=".genres.classical.classicalActivities.ClassicalViewPagerActivity" />
+        <activity android:name=".genres.comedy.comedyActivities.ComedyViewPagerActivity" />
+        <activity android:name=".genres.dance.danceActivities.DanceViewPagerActivity" />
+        <activity android:name=".genres.darkwave.darkwaveActivities.DarkwaveViewPagerActivity" />
+        <activity android:name=".genres.electronic.electronicActivities.ElectronicViewPagerActivity" />
+        <activity android:name=".genres.experimental.experimentalActivities.ExperimentalViewPagerActivity" />
+        <activity android:name=".genres.fieldrecordings.fieldrecordingsActivities.FieldViewPagerActivity" />
+        <activity android:name=".genres.folk.folkActivities.FolkViewPagerActivity" />
+        <activity android:name=".genres.hiphop.hiphopActivities.HipHopViewPagerActivity" />
+        <activity android:name=".genres.industrial.industrialActivities.IndustrialViewPagerActivity" />
+        <activity android:name=".genres.jazz.jazzActivities.JazzViewPagerActivity" />
+        <activity android:name=".genres.metal.metalActivities.MetalViewPagerActivity" />
+        <activity android:name=".genres.musictheatre.musictheatreActivities.MusicTheatreViewPagerActivity" />
+        <activity android:name=".genres.newage.newageActivities.NewAgeViewPagerActivity" />
+        <activity android:name=".genres.plunderphonics.plunderphonicsActivities.PlunderViewPagerActivity" />
+        <activity android:name=".genres.pop.popActivities.PopViewPagerActivity" />
+        <activity android:name=".genres.psychedelia.psychedeliaActivities.PsychViewPagerActivity" />
+        <activity android:name=".genres.punk.punkActivities.PunkViewPagerActivity" />
+        <activity android:name=".genres.rock.rockActivities.RockViewPagerActivity" />
+        <activity android:name=".genres.singer.singerActivities.SingerViewPagerActivity" />
+        <activity android:name=".genres.ska.skaActivities.SkaViewPagerActivity" />
+        <activity android:name=".genres.soundeffects.soundeffectsActivities.SoundViewPagerActivity" />
+        <activity android:name=".genres.spaghettiwestern.spaghettiwesternActivities.SpaghettiViewPagerActivity" />
+        <activity android:name=".genres.spokenword.spokenwordActivities.SpokenViewPagerActivity" />
+        <activity android:name=".genres.classical.classicalAdapters.ClassicalViewPageAdapter" />
+        <activity android:name=".genres.dance.danceAdapters.DanceViewPageAdapter" />
+        <activity android:name=".genres.comedy.comedyAdapters.ComedyViewPagerAdapter" />
+        <activity android:name=".genres.darkwave.darkwaveAdapters.DarkwaveViewPagerAdapter" />
+        <activity android:name=".genres.electronic.electronicAdapters.ElectronicViewPagerAdapter" />
+        <activity android:name=".genres.experimental.experimentalAdapters.ExperimentalViewPagerAdapter" />
+        <activity android:name=".genres.fieldrecordings.fieldrecordingsAdapters.FieldViewPagerAdapter" />
+        <activity android:name=".genres.folk.folkAdapters.FolkViewPagerAdapter" />
+        <activity android:name=".genres.hiphop.hiphopAdapters.HipHopViewPagerAdapter" />
+        <activity android:name=".genres.industrial.industrialAdapters.IndustrialViewPagerAdapter" />
+        <activity android:name=".genres.jazz.jazzAdapters.JazzViewPagerAdapter" />
+        <activity android:name=".genres.metal.metalAdapters.MetalViewPagerAdapter" />
+        <activity android:name=".genres.musictheatre.musictheatreAdapters.MusicTheatreViewPagerAdapter" />
+        <activity android:name=".genres.newage.newageAdapters.NewAgeViewPagerAdapter" />
+        <activity android:name=".genres.plunderphonics.plunderphonicsAdapters.PlunderViewPagerAdapter" />
+        <activity android:name=".genres.pop.popAdapters.PopViewPagerAdapter" />
+        <activity android:name=".genres.psychedelia.psychedeliaAdapters.PsychViewPagerAdapter" />
+        <activity android:name=".genres.punk.punkAdapters.PunkViewPagerAdapter" />
+        <activity android:name=".genres.rock.rockAdapters.RockViewPagerAdapter" />
+        <activity android:name=".genres.singer.singerAdapters.SingerViewPagerAdapter" />
+        <activity android:name=".genres.ska.skaAdapters.SkaViewPagerAdapter" />
+        <activity android:name=".genres.soundeffects.soundeffectsAdapters.SoundViewPagerAdapter" />
+        <activity android:name=".genres.spaghettiwestern.spaghettiwesternAdapters.SpaghettiViewPagerAdapter" />
+        <activity android:name=".genres.spokenword.spokenwordAdapters.SpokenViewPagerAdapter"></activity>
+        <activity android:name=".misc.AnimatorActivity"></activity>
+        <activity android:name=".misc.RunnableHandlerActivity"></activity>
+        <activity android:name=".misc.GestureActivity"></activity>
     </application>
 
 </manifest>

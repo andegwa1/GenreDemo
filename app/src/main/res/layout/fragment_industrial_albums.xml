@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.al.genredemo.genres.industrial.industrialFragments.IndustrialAlbumsFragment">
+
+    <RelativeLayout
+        android:id="@+id/activity_ind_title"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/activity_ind_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Top Industrial Albums"
+            android:textColor="@android:color/white"
+            android:textSize="21sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ind_list"
+        android:layout_below="@id/activity_ind_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,31 +1,175 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.al.genredemo.ambient.ambientFragments.AmbientFragment"
-    android:background="#f1f1f1">
+    android:layout_height="wrap_content"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    tools:context="com.example.al.genredemo.genres.ambient.ambientFragments.AmbientFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
+        android:id="@+id/activity_ambient_title"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark">
 
         <TextView
-            android:id="@+id/ambient_def"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:text="Ambient"
-            android:textSize="25sp" />
-
-        <TextView
-            android:id="@+id/ambient_def_desc"
-            android:layout_below="@id/ambient_def"
-            android:layout_width="match_parent"
+            android:id="@+id/activity_ambient_tv"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Ambient is a style that describes a large spectrum of music. Ambient music puts more emphasis on actual sound than musical structure, aimed at forming a particular atmosphere or mood with the help of conventional and unconventional instruments, sound clips, and sometimes vocal clips. Singing in ambient music can be done, although a good deal of ambient is instrumental.
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Ambient"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
 
-Ambient music is not limited to any particular mood or sound, but rather embraces the idea that any mood or atmosphere can be achieved through sound alone, rather than needing to rely on music composition or song structure. Ambient has been incorporated into a large amount of various already-existing musical genres, due to its extremely compatible usage and versatility."/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_ambient_title">
+
+        <!-- def-->
+        <ScrollView
+            android:id="@+id/def_ambient"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/genre_def_blues"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="1">-->
+
+            <FrameLayout
+                android:id="@+id/genre_ambient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:fontFamily="sans-serif"-->
+                <!--android:textSize="25sp"-->
+                <!--android:text="Blues"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--tools:ignore="MissingPrefix"/>-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/ambient_def"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+            <!--</LinearLayout>-->
+
+        </ScrollView>
+
+
+        <!--subs -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/def_ambient">
+
+            <LinearLayout
+                android:id="@+id/genre_sub_blu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/genre_acou_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/darker_gray"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Ambient Dub"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/genre_boog_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_purple"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Dark Ambient"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/genre_elec_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Dungeon Synth"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/genre_hill_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_red_dark"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Space Ambinet"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/genre_jump_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Tribal Synth"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
 
 </RelativeLayout>
-
-</FrameLayout>

@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.al.genredemo.genres.experimental.experimentalFragments.ExperimentalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/activity_exper_title"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/activity_exper_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Experimental"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_exper_title">
+
+        <!-- def-->
+        <ScrollView
+            android:id="@+id/def_exper"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/genre_def_blues"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="1">-->
+
+            <FrameLayout
+                android:id="@+id/genre_exper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:fontFamily="sans-serif"-->
+                <!--android:textSize="25sp"-->
+                <!--android:text="Blues"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--tools:ignore="MissingPrefix"/>-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/experimental_def"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+            <!--</LinearLayout>-->
+
+        </ScrollView>
+
+
+        <!--subs -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/def_exper">
+
+            <LinearLayout
+                android:id="@+id/genre_sub_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/genre_acou_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/darker_gray"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Acoustic Blues"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/genre_boog_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_purple"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Boogie Woogie"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/genre_elec_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Electric Blues"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/genre_hill_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_red_dark"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Hill Country Blues"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/genre_jump_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Jump Blues"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/genre_nola_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_green_light"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="New Orleans Blues"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/genre_piano_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_orange_dark"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Piano Blues"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/genre_vaude_blu"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/black"
+                    android:elevation="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Vaudeville Blues"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

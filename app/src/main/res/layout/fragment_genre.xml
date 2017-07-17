@@ -1,388 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
     tools:context="com.example.al.genredemo.GenreFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!--handler/animator -> intro screen; load on click; -->
+    <!--service / broadcast ->-->
+    <!--bundle ->-->
+    <!--gesture -> scroll thru genre list to bottom-->
+    <!--genre desc - definition, horizontal scroll view with fragments -> definition, horizontal scrollview,top releases-->
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:id="@+id/activity_amb_blu"
+            android:id="@+id/genre_amb_blues"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="1">
 
-            <TextView
-                android:id="@+id/genre_ambient"
-                android:layout_width="185dp"
+            <FrameLayout
+
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/holo_green_dark"
-                android:gravity="center"
-                android:text="Ambient"
-                android:textSize="25sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
 
-            <!--<View-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="0.05"-->
-            <!--android:background="@android:color/darker_gray"-->
-            <!--&gt;</View>-->
+                <TextView
+                    android:id="@+id/genre_ambient"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Ambient"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
 
-            <TextView
-                android:id="@+id/genre_blues"
-                android:layout_width="190dp"
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/holo_blue_dark"
-                android:gravity="center"
-                android:text="Blues"
-                android:textSize="25sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_blues"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Blues"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
         </LinearLayout>
 
 
         <LinearLayout
-            android:id="@+id/activity_class_com"
+            android:id="@+id/genre_classic_comedy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/activity_amb_blu"
+            android:layout_below="@id/genre_amb_blues"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/genre_classical"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_orange_dark"
-                android:gravity="center"
-                android:text="Classical"
-                android:textSize="25sp" />
-            <!--<View-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="0.05"-->
-            <!--android:background="@android:color/darker_gray"-->
-            <!--&gt;</View>-->
+            <FrameLayout
 
-            <TextView
-                android:id="@+id/genre_comedy"
-                android:layout_width="190dp"
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/holo_red_dark"
-                android:gravity="center"
-                android:text="Comedy"
-                android:textSize="25sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_classical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Classical"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_comedy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_red_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Comedy"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/activity_dance_dark"
+            android:id="@+id/genre_dance_dark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/activity_class_com"
+            android:layout_below="@id/genre_classic_comedy"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/genre_dance"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_purple"
-                android:gravity="center"
-                android:text="Dance"
-                android:textSize="25sp" />
-            <!--<View-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="0.05"-->
-            <!--android:background="@android:color/darker_gray"-->
-            <!--&gt;</View>-->
+            <FrameLayout
 
-            <TextView
-                android:id="@+id/genre_darkwave"
-                android:layout_width="190dp"
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/black"
-                android:gravity="center"
-                android:text="Darkwave"
-                android:textColor="@android:color/white"
-                android:textSize="25sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_dance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_purple"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Dance"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Darkwave"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
         </LinearLayout>
 
+        <!-- -->
 
         <LinearLayout
-            android:id="@+id/activity_electr_expr"
+            android:id="@+id/genre_elec_expr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/activity_dance_dark"
+            android:layout_below="@id/genre_dance_dark"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/genre_electronic"
-                android:layout_width="185dp"
+            <FrameLayout
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/holo_blue_bright"
-                android:gravity="center"
-                android:text="Electronic"
-                android:textSize="25sp" />
-            <!--<View-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_weight="0.05"-->
-            <!--android:background="@android:color/darker_gray"-->
-            <!--&gt;</View>-->
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
 
-            <TextView
-                android:id="@+id/genre_experimental"
-                android:layout_width="190dp"
+                <TextView
+                    android:id="@+id/genre_electronic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_bright"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Electronic"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/darker_gray"
-                android:gravity="center"
-                android:text="Experimental"
-                android:textSize="20sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_expr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Experimental"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
         </LinearLayout>
 
+        <!-- -->
+        <LinearLayout
+            android:id="@+id/genre_field_folk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genre_elec_expr"
+            android:orientation="horizontal">
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_red_light"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Field Recordings"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_folk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_light"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Folk"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- -->
+        <LinearLayout
+            android:id="@+id/genre_hip_ind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genre_field_folk"
+            android:orientation="horizontal">
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_hip"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#666699"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Hip Hop"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_ind"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_light"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Industrial Music"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- -->
+        <LinearLayout
+            android:id="@+id/genre_jazz_metal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genre_hip_ind"
+            android:orientation="horizontal">
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_jazz"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#881144"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Jazz"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_metal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#845544"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Metal"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- -->
+        <LinearLayout
+            android:id="@+id/genre_thr_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genre_jazz_metal"
+            android:orientation="horizontal">
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_music_thr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Music Theatre &amp; Entertainment"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_new_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="New Age"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- -->
+        <LinearLayout
+            android:id="@+id/genre_plun_pop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genre_thr_new"
+            android:orientation="horizontal">
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_plund"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Plunderphonics"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_pop_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_red_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Pop"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- -->
+        <LinearLayout
+            android:id="@+id/genre_phys_punk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genre_plun_pop"
+            android:orientation="horizontal">
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_physch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_light"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Physchedelia"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_punk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_purple"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Punk"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- -->
+        <LinearLayout
+            android:id="@+id/genre_rock_sing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genre_phys_punk"
+            android:orientation="horizontal">
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_rock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_blue_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Rock"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_singer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#666644"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Singer/Songwriter"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
+        </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/activity_field_folk"
+            android:id="@+id/genre_ska_sound"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/activity_electr_expr"
+            android:layout_below="@id/genre_rock_sing"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/genre_field_rec"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_red_light"
-                android:gravity="center"
-                android:text="Field Recordings"
-                android:textSize="20sp" />
+            <FrameLayout
 
-            <TextView
-                android:id="@+id/genre_folk"
-                android:layout_width="190dp"
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/holo_green_dark"
-                android:gravity="center"
-                android:text="Folk"
-                android:textSize="25sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_ska"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_red_light"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Ska"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_sound"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/material_grey_300"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Sound Effects"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
         </LinearLayout>
 
+        <!-- -->
 
-        <!--HipHop,industrial music -->
-
+        <!-- -->
         <LinearLayout
-            android:id="@+id/activity_hip_ind"
+            android:id="@+id/genre_spagh_spoken"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/activity_field_folk"
+            android:layout_below="@id/genre_ska_sound"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/genre_hip_hop"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_blue_bright"
-                android:gravity="center"
-                android:text="Hip Hop"
-                android:textSize="25sp" />
+            <FrameLayout
 
-            <TextView
-                android:id="@+id/genre_industrial"
-                android:layout_width="190dp"
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/holo_orange_dark"
-                android:gravity="center"
-                android:text="Industrial Music"
-                android:textSize="18sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_spagh_west"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#555489"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Spaghetti Western"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_spoken"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#128734"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Spoken Word"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
         </LinearLayout>
-        <!--Jazz, metal -->
+
+        <!-- -->
         <LinearLayout
-            android:id="@+id/activity_jazz_metal"
+            android:id="@+id/genre_anim_handler"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/activity_hip_ind"
+            android:layout_below="@id/genre_spagh_spoken"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/genre_jazz"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_purple"
-                android:gravity="center"
-                android:text="Jazz"
-                android:textSize="25sp" />
+            <FrameLayout
 
-            <TextView
-                android:id="@+id/genre_metal"
-                android:layout_width="190dp"
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:gravity="center"
-                android:text="Metal"
-                android:textSize="25sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_anim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#555489"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Animator"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_hanldler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#128734"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Handler"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
         </LinearLayout>
-        <!--music theatre, new age -->
+
+        <!-- -->
         <LinearLayout
-            android:id="@+id/activity_thr_new"
+            android:id="@+id/genre_bund_gest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/activity_jazz_metal"
+            android:layout_below="@id/genre_anim_handler"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/genre_theatre"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_red_light"
-                android:gravity="center"
-                android:text="Music Theatre"
-                android:textSize="18sp" />
+            <FrameLayout
 
-            <TextView
-                android:id="@+id/genre_new_age"
-                android:layout_width="190dp"
+                android:layout_width="165dp"
                 android:layout_height="150dp"
-                android:background="@android:color/holo_green_dark"
-                android:gravity="center"
-                android:text="New Age"
-                android:textSize="25sp" />
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+                <TextView
+                    android:id="@+id/genre_bundle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_purple"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Bundle"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_width="165dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="#fff"
+                android:elevation="4dp">
+
+
+                <TextView
+                    android:id="@+id/genre_gesture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_dark"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Gesture"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    tools:ignore="MissingPrefix" />
+
+            </FrameLayout>
+
         </LinearLayout>
-        <!--plunderphonics, pop -->
-        <LinearLayout
-            android:id="@+id/activity_plun_pop"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/activity_thr_new"
-            android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/genre_plunderphonics"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_blue_light"
-                android:gravity="center"
-                android:text="Plunderphonics"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/genre_pop"
-                android:layout_width="190dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_orange_light"
-                android:gravity="center"
-                android:text="Pop"
-                android:textSize="25sp" />
-        </LinearLayout>
-        <!--physcidelia, punk -->
-        <LinearLayout
-            android:id="@+id/activity_phys_punk"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/activity_plun_pop"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/genre_physch"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_green_light"
-                android:gravity="center"
-                android:text="Physchedelia"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/genre_punk"
-                android:layout_width="190dp"
-                android:layout_height="150dp"
-                android:background="@android:color/darker_gray"
-                android:gravity="center"
-                android:text="Punk"
-                android:textSize="25sp" />
-        </LinearLayout>
-        <!--rock, singer/song -->
-        <LinearLayout
-            android:id="@+id/activity_rock_singer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/activity_phys_punk"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/genre_rock"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:gravity="center"
-                android:text="Rock"
-                android:textSize="25sp" />
-
-            <TextView
-                android:id="@+id/genre_singer"
-                android:layout_width="190dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_red_dark"
-                android:gravity="center"
-                android:text="Singer/Songwriter"
-                android:textSize="20sp" />
-        </LinearLayout>
-        <!--ska, sound & effects -->
-        <LinearLayout
-            android:id="@+id/activity_ska_sae"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/activity_rock_singer"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/genre_ska"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_purple"
-                android:gravity="center"
-                android:text="Ska"
-                android:textSize="25sp" />
-
-            <TextView
-                android:id="@+id/genre_sound"
-                android:layout_width="190dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_orange_dark"
-                android:gravity="center"
-                android:text="Sound &amp; Effects"
-                android:textSize="18sp" />
-        </LinearLayout>
-        <!--spaghetti western, spoken wrd -->
-        <LinearLayout
-            android:id="@+id/activity_spa_spok"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/activity_ska_sae"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/genre_spag"
-                android:layout_width="185dp"
-                android:layout_height="150dp"
-                android:background="@android:color/holo_green_dark"
-                android:gravity="center"
-                android:text="Spaghetti Western"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/genre_spok"
-                android:layout_width="190dp"
-                android:layout_height="150dp"
-                android:background="@android:color/darker_gray"
-                android:gravity="center"
-                android:text="Spoken Word"
-                android:textSize="20sp" />
-        </LinearLayout>
 
     </RelativeLayout>
 
 </ScrollView>
-
-

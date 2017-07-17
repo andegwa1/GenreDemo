@@ -1,8 +1,22 @@
 <resources>
-    <string name="app_name">GenreDemo</string>
+    <string name="app_name">GenreSampler</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ambient_def">
+        Ambient is a style that describes a large spectrum of music. Ambient music puts more emphasis
+        on actual sound than musical structure, aimed at forming a particular atmosphere or mood
+        with the help of conventional and unconventional instruments, sound clips, and sometimes
+        vocal clips. Singing in ambient music can be done, although a good deal of ambient is
+        instrumental.
+
+        \nAmbient music is not limited to any particular mood or sound, but rather embraces the
+        idea that any mood or atmosphere can be achieved through sound alone, rather than needing
+        to rely on music composition or song structure. Ambient has been incorporated into a large
+        amount of various already-existing musical genres, due to its extremely compatible usage
+        and versatility.
+    </string>
 
     <string name="blues_def">The blues originated with African-American communities, primarily in the
         Deep South of the United States, towards the end of the nineteenth century. It grew out of
@@ -17,6 +31,402 @@
         influence on Rock &amp; Roll and later Blues Rock musicians and through them on Hard Rock
         and Heavy Metal music. Since then it has enjoyed a number of revivals, most recently in the
         2000s, when it was picked up by bands of the Garage Rock Revival.
+    </string>
+
+    <string name="classical_def">
+        Classical Music is part of a broad generalization about the structure and function of music
+        throughout history and across the globe, describing traditional genres of music distinct
+        from Traditional Folk Music and Popular Music developed in the 20th century. Genres are
+        typically classified as Classical in recognition of their own culture considering them a
+        form of art separate from and more "sophisticated" than its Traditional Folk. Classical
+        Musics tend to exist in relatively unified form on territories much larger than Traditional
+        Folk genres do, thus overlapping several separate Traditional Folk areas. They usually begin
+        as a "refined" version of Traditional Folk created for ceremonial use and often continue to
+        take inspiration from and have influence on Traditional Folk later in their history.
+
+        \nHowever, there exists a couple of common features that can be used to indicate how and when a genre
+        ceases to be Traditional Folk and develops as something "Classical". These two seem to be
+        intertwined: It could be said that Classical forms of music are preferred by priests/royalty
+        /scholars due to their perceived higher complexity and refinement. But at the same time it
+        is this preference and patronage that enables the musicians to train full time, giving them
+        opportunities to improve their skills and develop the music. That full-time training sets
+        Classical music apart from Folk in terms of performance - contrary to Folk genres, almost
+        every Classical genre around the world has a rather rigid norm of a "correct" performance
+        and "correct" compositional structure. Although Classical music in its model form originates
+        from professional musicians, its appreciation and amateur performance can be and often is
+        widespread in the society.
+
+        \nGiven that the concept of Classical music seems to be absent in non-hierarchical societies, it could
+        be assumed that the support of some kind of an elite (economic, social, scholarly,
+        religious) is necessary for the development of Classical music. Also, the distinction
+        between Classical Music and Folk music can be viewed as reflecting the hierarchy in a
+        society. This kind of music is known under dozens of different names across the globe;
+        they often suggest some kind of superiority (e.g. Polish muzyka poważna = "serious music",
+        Korean 정악 = "proper music", common "art music") reflecting its status privileged by
+        customary cultural biases.
+    </string>
+
+    <string name="comedy_def">Comedy covers a range of styles, both musical and non-musical, but
+        always sets out to make the listener laugh through a variety of types of humour. Musical
+        Comedy utilises traditional styles along with funny lyrical content, generally sung or
+        rapped as opposed to spoken. Non-musical comedy includes styles such as Sketch Comedy,
+        Stand-up Comedy, and Prank Calls.
+    </string>
+
+
+    <string name="dance_def">Dance covers the modern forms of dance music developed since the advent
+        of Disco in the early 1970s, including Disco itself, Electronic Dance Music and Dance-Pop.
+    </string>
+
+    <string name="darkwave_def">
+        Darkwave is a music genre that emerged from Post-Punk and New Wave. It combines a dark,
+        introspective, sorrowful, \"gothic\" atmosphere of Gothic Rock with
+        Electronic influences, particularly Synthpop. Although the genre started as a post-punk
+        style, eventually some artists started to make a greater use of synthesizers and drum
+        machines, thus moving towards dark electro music (Electro-Industrial related style). As a
+        result the term covers a broad range of dark \"gothic\" music with prominent synthesized
+        sounds.
+
+        \nSome of the most notable examples of the genre include Clan of Xymox, Lycia, L\' Âme immortelle,
+        Diary of Dreams, Deine Lakaien, Emilie Autumn and Dead Can Dance (the debut album).
+    </string>
+
+    <string name="electronic_def">
+Electronic music is music which uses non-traditional electronic instrumentation and sound
+        manipulation technology as the primary musical backbone of a composition.
+
+\nIn its original form, as pioneered by avant-garde classical composers like Edgard Varèse and
+        Karlheinz Stockhausen, electronic music compositions were abstract noise collages created
+        through the use of tape loops, oscillators, sirens and field recordings. Arguably the first
+        composer to create electronic music using traditional rhythms and melodies was Raymond
+        .
+
+\nSince the 1960s, starting with bands like Silver Apples and White Noise, electronic music has
+        filtered into pop music, with its commercial breakthrough arguably occurring in the 1980s
+        with the advent of Synthpop.
+    </string>
+
+    <string name="experimental_def">Experimental music describes the most radical approaches that
+        can be found throughout the history of recorded music. Experimental music has two main
+        characteristics: the first is about the production and the other one is about the sound.
+
+\nFirstly, experimental musicians use non-traditional production methods. It can be through the
+        uncommon use of traditional instruments, such as guitars, cellos, saxophones, and even
+        the human voice like in Sound Poetry. It can be through the production of sound with
+        objects that aren\'t considered musical instruments in their original contexts, Musique
+        concrète and radical Industrial music being examples of that method. It can be through
+        the manipulation/application of multiple effects on already recorded material
+        (Sound Collage). It even can be through the manipulation of the sound itself, as a physical
+        entity (Microsound).
+
+\nSecondly, these non-traditional production methods result in a sound that goes largely beyond the
+        traditional boundaries of music. The use of traditional instruments outside of any academic
+        structure, such as in Free Improvisation, can result in a complete absence of directing scheme in the music. Whatever production technique is used, the absence of clear rhythm or tempo or of any recognizable musical scale are then quite common. The textures can also be completely deconstructed, the remaining sound barely resembling to common definitions of music (Harsh Noise).
+
+\nIn the history of recorded music, experimental music has its roots in Classical Music of the
+        beginning of the 20th century, for example in the Futurism movement. The first musicians to
+        actively make and produce experimental music mostly carried an academical background
+        (John Cage, Luigi Russolo, Pierre Schaeffer), but artists outside of the academic world
+        (some early chronological examples being radical jazz artists such as Sun Ra, Chick Corea
+        and Art Ensemble of Chicago derivating to Free Jazz and free improvisation) then began to
+        heavily incorporate experimentation into their works. Since then, numerous artists have
+        received some recognition making experimental music, such as Einstürzende Neubauten or Supersilent.
+
+\nSince the end of the 20th century, the popularisation of Electronic instruments such as synthetizers
+        and the spread of numerical tools for programming and manipulating sound allowed more people to experiment with music more easily. Digital electronic devices brought new sonical experimentations by themselves too, like in Glitch.
+    </string>
+
+    <string name="field_def">Material recorded outside of a recording studio for the purpose of
+        capturing the audible illustration of an environment. Captured sound can be either natural
+        (Nature Recordings, such as the sound of water, wind, animal calls, etc.) or anthropogenic
+        (e.g. noises caused by moving trains, city traffic or Numbers Stations Broadcasts). Field
+        recordings are widely used in Experimental music, Musique concrète, Ambient and other
+        similar genres.
+
+\nThis field of art is sometimes also called "phonography" because of the similarities to photography.
+
+\nIn a broader meaning the term "field recording" can also mean any recording made outside
+        the studio, including actual musical performances or speeches. However, the use of this
+        genre should be restricted to releases consisting of captured environmental sounds.
+    </string>
+
+    <string name="folk_def">Folk music is a very broad term used for music rooted in the mostly oral traditions of initially rather small social groups. The original context of folk music often was to accompany other types of social activities, like manual labour, religious rites or family gatherings. The eponymous, notoriously difficult "folk" or "people" concept can therefore relate to a number of different aspects: groups defined through ethnicities, tribes, nations, large regions, occupations, religions, families etc. may each serve as parameters for different folk musics (such as Native American Music, Hill Tribe Music, Canadian Folk Music, Work Songs or East Asian Folk Music). It is used as a distinct category from the high art concept of Classical Music and comparatively modern forms of commercially distributed, written popular music (such as Pop or Rock).
+
+\nThe term nowadays can be divided into two different main categories: Traditional Folk Music and Contemporary Folk. Traditional folk music (as a subcategory of Regional Music) denotes many different types of music with usually specific regional roots and served as the original concept for folk music. Among its typical characteristics are unknown origins of songs (usually replaced with the concept of a collective composing effort through time), an evolutionary approach to songs, and a comparatively fixed repertory of similar tunes which varies in size. A once common criterion – folk music being "rural" as opposed to "urban" – is nowadays widely rejected. Arising in the mid-20th century, contemporary folk is meant to describe music that still has certain forms of European or American folk music as its major influence, yet bringing it from a traditional context into that of popular music.
+    </string>
+
+    <string name="hip_hop_def">Emerging mainly on the eastern coast of the United States in the late 1970s, hip hop is a form of music emphasizing rhythmic beat patterns and spoken delivery rather than harmonic melodies and sung vocals. Much of hip hop\'s roots can be traced to Deejay, a form of Reggae music that an immigrant DJ Kool Herc hoped to emulate in the Bronx borough of New York City. The style quickly took over in uptown neighborhoods such as Harlem and Queens, where many enjoyed the loose, afro-centric nature of the parties Kool Herc would put on. Adapting the format to Disco and Funk breaks rather than the reggae Herc was used to further enhanced the genre\'s appeal in urban communities.
+
+\nThe music quickly took over in New York and Connecticut while expanding across the United States and eventually other countries through the 1980s and 1990s. Eventually incorporating Soul and Jazz breaks into its musical lexicon, hip hop as it is known today continues to incorporate sampling of both popular and obscure tracks from the past and present that one or more MCs rap lyrics over in a stylized, rhythmic response or addition to the beat.
+    </string>
+
+    <string name="industrial_def">
+        Coinciding with Punk Rock, industrial music was a crucial movement in the late 1970s British
+        counterculture. The harsh and mechanical sound depicting the gloomy and morbid reality of
+        life in the industrial society quickly spread around European and North American underground
+        music scenes, impacting a whole range of Experimental styles. Since the 1980s industrial
+        music has incorporated a wide array of popular and classical influences, growing into a
+        broad family of genres.
+
+\nThe original Industrial movement was born in 1976 with the London-based band Throbbing Gristle -
+        a continuation of the avant-garde performance art act COUM Transmissions. One of the first
+        Throbbing Gristle shows happened during the COUM Transmission\'s Prostitution show in 1976,
+        whose highly controversial content caused media outrage and a debate in the British
+        Parliament during which the group were called \"the wreckers of civilisation\". Not
+        surprisingly, that only brought industrial music to the attention of a wider audience,
+        stimulating the growth of this underground phenomenon. Soon industrial artists were
+        appearing in the United States, Germany, France, Australia, and the rest of the \"First
+        World\".
+
+\nInfluenced by Musique concrète, Krautrock, and going against the conventions of popular music at
+        the time, the bands were aiming for a bleak and mechanical sound as well as cynical and
+        shocking image and lyrical themes. That was often accomplished by the use of noise,
+        electronic devices, non-musical instruments and unusual samples. Other influential bands,
+        aside from the aforementioned Throbbing Gristle, included Boyd Rice/NON in the U.S.,
+        Cabaret Voltaire and Nurse With Wound in the U.K., SPK in Australia, Einstürzende Neubauten
+        in Germany, and many others.
+
+\nOver time industrial music has split into many sub-genres. In the early 1980s the growing
+        influence of Synth Punk and Minimal Synth led to the emergence of EBM, a more beat-driven
+        and melodic style pioneered by European bands like Deutsch Amerikanische Freundschaft and
+        Front 242. This electronic body music lacked the experimentation and harshness of the first
+        wave industrial music, so a few years later artists such as Skinny Puppy started to combine
+        the modern electronic feel of EBM back with the dark sound of early industrial music
+        resulting in a complex sub-genre called Electro-Industrial. In the 1990s these electronic
+        branches evolved even further in opposite directions. On one side of the spectrum there was
+        the accessible Synthpop and Trance oriented Futurepop started by Apoptygma Berzerk and VNV
+        Nation, whereas Hocico, Suicide Commando, and other Aggrotech artists chose a much more
+        extreme approach of blending fast Hardcore [EDM]-like beats with harsh/distorted vocals.
+
+\nBut electronic influences were not the only direction undertaken by the post-industrial music
+        scene in the 1980s. Artists such as Foetus, Chrome and Killing Joke were among the first
+        to combine Post-Punk with industrial music, thus pioneering the guitar-driven genre of
+        Industrial Rock. Then, bands like KMFDM, Ministry and Godflesh went for a heavier and more
+        extreme sound of Industrial Metal. Industrial rock and metal have since then arguably
+        become the most popular of all industrial styles, with Nine Inch Nails, Rammstein and
+        Marilyn Manson reaching a very wide mainstream audience.
+
+\nThe repetitive sound and totalitarian aesthetic of some of the early industrial artists was taken
+        to the extreme by Slovenian Laibach whose heavy, rhythmic percussion, war-related lyrics
+        and Western Classical Music influences pioneered a style called Martial Industrial. In the
+        1990s groups like The Moon Lay Hidden Beneath a Cloud and Blood Axis started to mix it with
+        other styles of music and the genre began to significantly overlap with Neofolk, Dark
+        Ambient and Neoclassical Darkwave, growing into its own scene far removed from the
+        electronic and rock styles that dominated industrial music at the time. Because of the
+        militaristic spirit and historical themes, many martial industrial artists have adopted a
+        totalitarian right-wing image, but there are also some acts coming from the other side of
+        the political spectrum, for example ROME.
+
+\nAside from its sub-genres, industrial has influenced many other styles of music as well. Its
+        relentless avant-garde sound had a great impact on Noise, while the brooding and dark
+        atmosphere was one of the leading forces behind the development of dark ambient in the
+        1980s. Industrial artists were also one of the first to widely use sampling in their music.
+        In the late 1970s Chris Carter of Throbbing Gristle built a sampler which his band-mate,
+        Peter \"Sleazy\" Christopherson, was using on stage even before the first samplers were
+        commercially available. In Coil Sleazy experimented with other electronic devices,
+        becoming one of the pioneers of Glitch music and influencing a range of IDM artists.
+        Meanwhile, Current 93\'s and Death in June\'s blend of post-industrial experimental music
+        nd acoustic instrumentation resulted in the advent of neofolk.
+    </string>
+
+    <string name="jazz_def">Jazz originated in the Southern United States at the beginning of the 20th century. It was largely influenced by Ragtime and Blues, and quickly developed into one of the more popular musical genres by the 1930s with the development of Swing.
+
+\nAfter World War II the sound began to change from the Big Band style to smaller groups that created the style of Bebop and Modal Jazz in the 50s. Soon Latin infused styles emerged, such as Afro-Cuban Jazz and Brazilian Music jazz. This was also how Latin Jazz was formed. Free Jazz started to develop in the late 1950s and with the popularity of Rock music becoming more prevalent in the 70s, Jazz Fusion and Jazz-Funk were born. By the 1990s Nu Jazz was becoming the more popular medium for new listeners in jazz.
+
+\nThe sound of jazz has changed many times over the past 100 years but one element that is within most jazz is improvisation. Early blues was commonly structured around a repetitive call-and-response pattern and forms of folk music from the blacks in the rural areas was also highly improvisational. These are some features that are known to be fundamental in jazz.
+    </string>
+
+    <string name="metal_def">While the exact origins of heavy metal music are unknown, it can be estimated that the genre had been in the early stages of development throughout the late 1960s. Heavy metal borrows much of its influence from legendary Blues Rock bands such as Led Zeppelin, Cream, The Rolling Stones, and The Who. It is a widely debated topic as to which band was actually the first to make the leap from rock to metal, but the main contenders are generally Black Sabbath, Blue Cheer, Deep Purple, Uriah Heep, and Black Widow. Regardless of which band is labeled the first in the genre, the music itself developed immense popularity in the early 1970s due in no small part to the aforementioned bands. The United Kingdom and the United States alike saw a drastic influx of new bands, many now legendary acts such as AC/DC, Judas Priest, Motörhead and Thin Lizzy.
+
+\nEarly metal music was characterized by driving and distorted riffs, aggressive drumming, vigorous vocals, and an all around show of brute force. Fashion played a major role in the scene as well, with the predominant color of choice being black to signify individualism, and the most popular clothing style being tight leather. Most band members grew down-the-back long hair, adopted from the hippie culture of the 1960s. Lyrical themes were often used as weapons of shock value towards the mainstream music culture, often emphasizing dark and depressing subjects such as anti-religion, drugs, war, death, and suicide. The fallen angel Satan would become a prime symbol for the genre, embodying the messages of individuality and anti-conformity that heavy metal music strived to create.
+
+\nSince its birth in the early 1970s, metal has since branched out into dozens of subgenres, each incorporating a unique style or theme. Death Metal, for example, is an aggressive subgenre that tends to emphasize deep, guttural growls, fast tempos, blast beat drumming, complex song structures, and a general emphasis on gory lyrical content. Black Metal on the other hand, is a subgenre that tends to focus more on lo-fi production to enhance atmosphere while employing tremolo picking, shrieked vocals, unconventional song structures, and generally Satanic or anti-Christian lyrics. While each subgenre is inherently different, it is clear that the original message of individualism found in the early heavy metal music is still alive today.
+    </string>
+
+
+    <string name="music_theatre_def">The music from a range of styles of theatre individually popular in the United States or in various countries in Europe, mostly from the 19th century to the mid-20th century. The term also covers music composed in one of these styles independently from any theatrical production or for revivals of one of these styles.
+
+\nThe theatrical styles share a commonality of all containing substantial elements of variety entertainment - it was typical for these performances to contain non-musical entertainment, such as comedy, alongside the music. All of these styles were considered mass entertainment and the earlier styles evolved from Traditional Folk Music or Western Classical Music - for instance Cabaret evolved from informal performances of Opera arias, and Music Hall evolved from English Folk Music.
+
+\nDespite this most of the styles, with a few exceptions like Cuplé, soon became very distinct from their roots and occupied a music niche very clearly distinct from those of Traditional Folk Music or Western Classical Music, being neither the art music of the rich or part of the oral traditions of the countryside - but rather the music of mass entertainment of the cities.
+    </string>
+
+    <string name="newage_def">New age is a genre of music that tends to focus on peaceful, meditative, and relaxing melodies. New age can take many forms: electronic new age uses soft synths, long, sustained notes, and simple drum beats, while acoustic new age uses instruments such as flutes, piano, and guitar to create a calm atmosphere (though sometimes even these acoustic instruments are digital samples). Mike Oldfield, Enigma, Popol Vuh, and Vangelis are some of the most prominent artists in the genre.
+
+\nSome artists have even blended specific types of folk music into their own to create very distinct sounds. Examples of this include Enya and Clannad, who mixed together new age and Celtic Folk Music to make Celtic New Age, and Cusco and Medwyn Goodall, whose South American influences stylized Andean New Age.
+    </string>
+
+    <string name="plunder_def">Plunderphonics, a term invented by John Oswald in his essay,
+        Plunderphonics, or Audio Piracy as a Compositional Prerogative, is a compositional technique
+        that uses one or more existing audio sources and manipulates the sources to create a new
+        composition. It is a form of sound art that uses the technique of Sound Collage of musical
+        and non-musical sources and sometimes involves Field Recordings.
+    </string>
+
+    <string name="punk_def">
+        Punk is a musical genre known for its aggression, rawness and simplicity. The roots of punk
+        can be found in the Proto-Punk and Garage Rock of the 1960s, but it emerged fully a decade
+        later with the success of Punk Rock. Ever since, the genre has expanded in many directions,
+        such as the more extreme Hardcore Punk as well as fusions with other styles, including
+        Electronic, Metal or Ska.
+    </string>
+
+    <string name="pop_def">
+        Pop music, more than any other genre, is closely tied to the economic forces of mass production and mass marketing. The first popular standards were a result of the new market for sheet music in the 19th century. For the first time, songwriters could earn a living from consumers without a traveling show or a supportive patron. The invention of the phonographic cylinder at the tail end of the 19th century, and the more lasting disc technology developed at the beginning of the 20th century took the standardization of songs and potential for mass consumption a step further.
+
+\nNon-Classical Music in the first half of the 20th century was broadly referred to as "popular" music, not "pop" music. Nonetheless, the popular music from the 1900s to the 1940s that appealed to the most mainstream tastes in America, is generally recognized now as Traditional Pop.
+
+\nThe dynamic post-World War II economy and the advent of the Rock &amp; Roll era brought about a new age of teen consumerism and the first wave of Teen Pop celebrities. Various sources suggest the use of the word "pop" dating back well before the 1950s, but it was certainly the \'50s when it took hold as a cultural phenomenon.
+
+\nBecause "pop" can simply mean what is or was popular in many different times and places, defining it more narrowly as an actual musical genre is arguably ill-advised. Nonetheless, most pop music does share many distinct traits. Pop music is generally designed to be catchy, with a beat or a melody or a lyric or a hook (or all four) that are readily accessible, particularly to young people. It is also produced, often by large and expert teams, in way that removes any rough edges.
+
+\nPop music, more so than Rock music, also tends to emphasize the vocalist as the lead performer. As such, pop songs tend to be somewhat short with only brief instrumental breaks. A basic intro/verse/chorus/verse/chorus structure, or some mild variation on that structure, is very common in pop music and has remained common over the decades.
+
+\nIn the 1960s, The Beatles brought Pop Rock to the fore, and in doing so challenged some notions of what rough edges might be allowed within the basic construct of pop. In the 1970s, many Soft Rock artists went the other direction and softened pop reducing the centrality of the beat in pop music. By the end of the decade, however, Disco had taken pop in an even more dance oriented direction paving the way for Dance-Pop.
+
+\nPop and R&amp;B have always coexisted with a great deal of direct crossover and indirect crosspollination. In the 1980s those lines were blurred even more as Michael Jackson was crowned the king of pop. In the 21st century, Hip Hop has become a major influence in pop music with many pop stars employing the top hip hop producers to assist in making their hits.
+
+\nPop music has also become globalized to a tremendous extent (e.g., C-Pop, K-Pop, Indian Pop, and Latin Pop) reflecting both a global economy and a growing consumer class in most of the world.
+    </string>
+
+    <string name="psych_def">
+        Psychedelic music is music which replicates or enhances the altered state of consciousness
+        brought on by the use of psychedelic drugs. It is identified by being whimsical or surreal,
+        featuring \"trippy\" sounds often achieved through electronic distortion such as phasing,
+        fuzz, or tape echo. Occasionally, it is related to the exotic, drawing musically or
+        lyrically from non-Western sources. Over the last few decades, psychedelia has mutated
+        into various established genres, largely due to the influence of popular trends and the
+        advancement of recording techniques.
+
+\nThe first wave of psychedelia-infused music occurred in the mid 1960s as Psychedelic Rock,
+        Psychedelic Pop, Psychedelic Folk, and Psychedelic Soul. Together, they include a wide
+        range of artists such as The Jimi Hendrix Experience, The Beach Boys, The Incredible
+        String Band, and Sly &amp; The Family Stone. Soon after the early 1970s, psychedelic music
+        faded in popularity.
+
+\nDuring the late 1970s and early 1980s, a revival of psychedelic music took place. The first
+        product was Neo-Psychedelia, which amalgamated the earlier forms of psychedelic music with
+        modern styles, rising to prominence in the 1990s with bands like The Flaming Lips and
+        Spiritualized. In the mid 1980s and early 1990s, psychedelia influenced Electronic Dance
+        Music, starting with Acid House, a subgenre partially credited to Phuture\'s \"Acid Tracks\"
+        in addition to Genesis P-Orridge\'s aspiration to create a psychedelic brand of House. The
+        continued influence of psychedelic culture in electronic music subsequently gave rise to
+        Acid Trance, Goa Trance, Psytrance, and Psybient. Due to their sonic disparities, it is
+        arguable whether these genres are truly derived from the original sound of \'60s psychedelia.
+    </string>
+
+    <string name="rnb_def">
+        R&amp;B, which began as an abbreviation for Rhythm &amp; Blues, is understood by many today as an umbrella term that includes the most popular forms of African-American music from the late 1940s, when the term rhythm &amp; blues first appeared, through to the Contemporary R&amp;B of the 1980s forward. Between the time that the term faded in the late 1960s and then reappeared in the 1980s, Soul and Funk were two of the most popular genres in the African-American community. While there is much that is distinct about these genres, they are strongly influenced by the first decade of rhythm &amp; blues and often included under the R&amp;B umbrella. These genres collectively cover the career arc of some of the most notable stars of R&amp;B including James Brown, Aretha Franklin, The Temptations, and Stevie Wonder.
+
+\nIn the early 1950s, the term would have also included late-period Jump-Blues and early Rock &amp; Roll; however, today\'s usage generally limits the early period of the genre to rhythm &amp; blues, Doo-Wop, and New Orleans R&amp;B. Mainstream acceptance of Hip Hop in the 1990s brought an end to R&amp;B as the umbrella term describing almost all popular Afro-American music, though contemporary R&amp;B has continued in popularity alongside hip-hop, occasionally mixing influences as is the case with New Jack Swing.
+
+\nWhilst having American roots and origins, the international popularity of its main genres (rhythm &amp; blues, soul, and funk) have led to a number of distinct genres including British Rhythm &amp; Blues, Latin Soul, and Afrobeat. R&amp;B has also been a major influence on Pop and Disco.
+
+\nIt is notable that the term rhythm &amp; blues, and thus R&amp;B, was invented by marketers in the late 1940s to replace the term "race records", but for some the short form of the name is more closely associated with contemporary R&amp;B. Additionally, it is not universally accepted that R&amp;B is inclusive of soul and funk, which are considered more distinct by some than others. The history of the Billboard charts likely adds to the confusion. A switch was not made from "best selling rhythm &amp; blues singles" to "best selling soul singles" until August of 1969 even though the 1960s is sometimes considered the heyday of soul. Similarly, in the late 1970s, the "Hot Soul Singles" chart was often topped by disco or funk single. For most of the 1980s the chart went by the name "Black Singles" or "Hot Black Singles", though the hits of that era are often recognized today as contemporary R&amp;B.
+    </string>
+
+    <string name="regional_def">
+        This genre refers to music that developed from regional cultural traditions, as opposed to global music which refers to international developments and outputs of globalization.
+
+\nRegional music ranges from primitive and Prehistoric Music, through more sophisticated Ancient Music to Traditional Folk Music, regional Classical Music (Arabic Classical Music, Hindustani Classical Music, Japanese Classical Music, etc.) and modern developments which heavily borrow from traditional music (Cape Verdean Morna, Caribbean Calypso, Brazilian MPB, Spanish Rumba catalana, etc.).
+
+\nGlobal music, on the other hand, covers music that is not identified with a specific regional tradition. However, its earliest forms did initially evolve from regional music, particularly American and European music. The most apparent examples are Western Classical Music, Blues and Jazz. While those genres have undeniable regional roots, they have become worldwide concepts, following global rather than local traditions.
+
+\nSince globalization is greatly affected by technology, technological advances play a big role in the distinction between regional and global music. Regional music commonly uses traditional instruments, such as banjo, balalaika, sitar and accordion, while global music widely incorporates modern instruments and electronics, including bass, electric guitar, drum machine, synthesizer, and many more. Some instruments, especially those closely associated with Western Classical Music (piano, violin, clarinet, brass, etc.) are frequently used in both regional and global music sub-styles.
+
+\nAside from instrumentation, regional music tends to put emphasis on traditional singing techniques, such as yodeling, throat singing, Joik or Polyphonic Chant. Furthermore, over the years various cultures have developed distinct rhythms, time scales, meters, and other structural elements unique to certain regions. For example Shomyo, Gagaku, and some other Japanese genres utilize the yo scale. There are also other musical scales unique to and common in Japanese music. Such features, along with instrumentation and singing styles, signify regional genres as something more than mere geographical categories.
+
+\nAlthough regional music is generally described as the opposite of global music, there is a notable amount of music that is a mixture of both. Local variations of global genres may appear under this genre if they incorporate prominent regional elements (Afro-Jazz, Latin Funk, Arabic Pop, Acid Croft, etc.). However, genres such as Picopop, Yacht Rock, Neue Deutsche Welle, and Polish Yass, despite being regional in a geographical sense, are not considered regional music because they follow and extend global music trends rather than regional traditions.
+
+\nLast but not least, regional music genres are not restricted by geography so far as they remain close to the original style. For example, Reggae can be nowadays performed all over the world, but it still remains distinctly Jamaican. That said, the emergence of Dub combined with worldwide popularity of reggae and Jamaican music eventually gave rise for genres such as Dub Techno, Ambient Dub and Dubstep. Although distantly influenced by Jamaican music, those styles have no regional Jamaican identity and are examples of purely global music.
+    </string>
+
+    <string name="rock_def">
+Rock is a widely popular and vast genre that gathers together a wide range of different styles. Its origins can be traced to US recordings in the late 1940s that combined major elements from Jump-Blues and Swing with the increased prominence given to the role of the electric guitar drawn from Chicago Blues. Even though the term ‘Rock’ was originally used by some Blues performers in the late 1930s to describe their faster tempo songs and bawdier version of their music, it went largely unrecorded until the late 1940s.
+
+\nRock in its original form was a song-based type of music that typically used a verse-chorus structure with a backbeat rhythm and the electric guitar at the forefront of the music being heavier and/or faster than its predecessor genres. Rock is characterized by the prominence of the electric guitar, usually played loud, and accompanied by bass and drums. In addition, right from the beginning rock music has been linked to a rebel or provocative attitude towards the system and conservative culture.
+
+\nRock became popular in the 1950s through two of their original forms Rock &amp; Roll and Rockabilly. Rock &amp; Roll originated as a category to describe African American musicians that were playing a fast tempo Rhythm &amp; Blues such as Little Richard and Chuck Berry. Rockabilly comes from some young Western Swing performers that began to incorporate its faster tempo combining it with Country influences and tends to be applied to white musicians like Carl Perkins and was most popular through the early recordings of Elvis Presley. This type of music was very popular through 1958 when it started to fade with the arrival of Teen Pop, despite the emergence of Surf Rock with bands like The Shadows and The Ventures in the late 1950s and early 1960s and Garage Rock in the early 1960s.
+
+\nIn the 1960s, a lot of British bands like The Rolling Stones, The Kinks and The Beatles, recreated elements of American Blues and Rock &amp; Roll generating a cross-influence between the US and the UK and bring Rock back to popularity. During that decade, Rock expanded the use of the electric guitar with different guitar effects, the use of heavier riffs and more experimental solos.
+
+\nSince then, Rock has become extensively and internationally popular, evolving into different subgenres depending on the different elements that have been emphasized by the artists. A raw, straightforward attitude and way of playing, along with a counterculture aesthetic shaped Punk Rock. The use of guitar distortion and a more aggressive sound led to Hard Rock and Heavy Metal. The use of keyboards, the combination of guitar scales, melodic progressions and tempo changes into complex compositions led to Progressive Rock. A very fast way of playing led to Speed Metal and Thrash Metal. These only show a couple of examples of how different elements were emphasized, but Rock has also combined with other genres, instruments and influences to expand its boundaries, hence Folk Rock, Funk Rock, Blues Rock and other subgenre terms have become widely used.
+
+\nIn the last decades, since rock has been brought a number of times into the mainstream, that original rebel attitude has become a less characteristic trait. Lots of bands have retained elements of the Rock sound, but have been polished and shaped by the commercial industry into mass consumption products. Therefore, terms like Alternative Rock and Indie Rock has been used to describe artists that record independently or that initially made music that was off the mainstream.
+    </string>
+
+    <string name="singer_def">
+        The singer/songwriter genre is rooted in the traditions of the mediaeval bards and
+        troubadours of the 15th &amp; 16th centuries. This style of \'musical storytelling\' was
+        championed in the post-war era by Woody Guthrie, Dorival Caymmi and others, usually
+        presented as one man and his guitar. In the US the sound evolved with the American
+        Contemporary Folk scene of the 1950s and early 1960s where artists such as Bob Dylan and
+        Pete Seeger began to write and play their own songs, whilst at the same time artists such
+        as Georges Brassens, Joan Manuel Serrat, Gino Paoli, Víctor Jara and Chico Buarque were
+        developing along similar lines in Europe and Latin America, leading to the development of
+        genres like Liedermacher, Cantautori and Nueva canción and influencing Chanson.
+
+\nThe term singer/songwriter actually arose in the late 1960s / early 1970s to describe a group of
+        artists such as Carole King, Harry Nilsson and Randy Newman who had worked as professional
+        songwriters and had hits recorded by other artists, but who then were able to start singing
+        and recording their own material. Rapidly however the term became co-opted to describe the
+        music being created by the likes of Dylan &amp; Seeger, as well as Jackson Browne, James
+        Taylor, Joni Mitchell and others in the American protest movement of the time and soon
+        spread to cover similar artists working outside America.
+
+\nThe genre\'s defining qualities include confessional or political lyrics, typically with sparse
+        acoustic accompaniment (acoustic guitar or piano) and an arrangement that relies more on the
+        strength of the song and the performance than on production techniques or musical style. The
+        original artists were rooted in Folk traditions but the genre has evolved to include a much
+        broader range of influences, for example Blues, Lounge, Jazz and even Pop.
+    </string>
+
+    <string name="ska_def">
+        Ska originated in Jamaica in the late 1950s, developing out of Jazz and Rhythm &amp; Blues (specifically New Orleans R&amp;B and Jump-Blues), combined with local Mento and Calypso styles. The original Jamaican Ska developed ska as a genre that focused on off-beat rhythms, and utilised horn sections, busy bass lines, and smooth vocal harmonies.
+
+\nTowards the mid-1960s, this ska mentality was combined with various Soul styles and developed into the slower Rocksteady genre. This development, alongside the growth of the ska movement, also lead to the creation of Reggae in the late 1960s. In the 1970s, British musicians who had grown up listening to the original form of ska developed their own revival sound in 2 Tone. Following this, in the mid-to-late 1980s, bands in North America revived the genre once again - influenced by the British 2 tone - to create the Third Wave Ska movement. Both of these movements drew influence from Punk music, and eventually the third wave spawned the Ska Punk style.
+
+\nThroughout all of these changes, ska became a worldwide phenomenon with many distinct styles. All forms of ska are unified in the use of the off-beat focus, and have a tendency to include chop-style guitar work. Ska is typically played at a lively tempo and is extremely danceable.
+    </string>
+
+    <string name="sound_def">
+        Sounds and effects recordings are non-musical audio works, compiling recorded sounds, sounds recreated synthetically or by other means, sounds of known objects or abstract noise manifestations. Those short recordings are generally used individually to illustrate other works (eg. Sound Effects Vol 21: More Death and Horror) or as a generator of a functional atmosphere (eg. Halloween Sounds &amp; Music for Your Parties, Trick or Treaters &amp; School Festivals).
+
+\nThese recordings may include musical sounds that are presented in a non-musical contexts, such as music heard from the radio of a passing car; the key distinction is that the music is an incidental component of the sound effect or atmosphere, rather than the focus of the recording.
+
+\nThe creation, preparation and presentation of sound effects distinguishes them from Field Recordings, which documents original, authentic sound in its natural setting, usually for research and study.
+    </string>
+
+    <string name="spaghetti_def">
+        Spaghetti Western is a style which was pioneered by Ennio Morricone with the music he
+        composed in the mid-1960s for films in the Italian Spaghetti Western genre.
+
+        \nMorricone\'s unique arrangements and innovative choice of instruments, aided by
+        multi-instrumentalist and whistler Alessandro Alessandroni, produced a sound that can be
+        defined as a potpourri of "twangy" distorted baritone guitar, classical guitar, whistling,
+        Jew\'s harp, trumpet, harmonica, piano, banjo, flute, violin, ocarina, chimes, bells,
+        various percussion instruments and vocalizations (including brisk, low-pitched chants,
+        shouting and animal-like calls), and often backed by an orchestral string ensemble and/or a
+        choir. The style took cues from Cowboy music, Surf Rock, Mexican Music styles and Western
+        Classical Music to create its signature sound and melancholic, wistful, often austere
+        atmosphere. Commonly a piece builds from a slow resonance to a wall of sound climax to
+        evoke the tension of stand offs, duels, and other typical tropes of Westerns.
+
+        \nThe success of this highly distinctive sound in conjunction with the films (especially
+        Il buono, il brutto, il cattivo and Morricone\'s partnership with director Sergio Leone)
+        saw other composers adopt the style, among them Bruno Nicolai, Luis Enríquez Bacalov and
+        Hugo Montenegro.
+
+        \nSpaghetti western music has continued to influence, whether through artists such as
+        Cadillac Hitmen and James Wilsey adopting a similar guitar sound and mood, or through
+        straight imitation/homage, for example, the video game soundtracks Outlaws and Wild Arms.
+    </string>
+
+    <string name="spoken_def">Spoken word recordings consist of usually unaccompanied vocal
+        readings. While not all are unaccompanied by musical backing, the focus is always on
+        the reading (such as the prose, inflection, or intonation) of the words being read.
+        Spoken word pieces can be Speeches, a form of Poetry, an audio narrative (such as a
+        Radio Play or Fairy Tales), or even an Interview recording.
     </string>
 
 </resources>
